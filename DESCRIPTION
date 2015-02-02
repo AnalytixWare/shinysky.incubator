@@ -1,0 +1,14 @@
+Package: shinysky.incubator
+Type: Package
+Title: A set of Shiny UI components/widgets. There is no intention to improve or Maintain them
+Version: 0.1.0
+Date: 2015-2-2
+Author: ZJ
+Maintainer: ZJ <dzj@analytixware.com>
+Description: A set of Shiny UI components/widgets. There is no intention to improve or maintain them
+License: MIT
+Depends:
+    shiny,
+    shinysky,
+    RJSONIO,
+    plyr
