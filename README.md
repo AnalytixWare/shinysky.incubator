@@ -8,8 +8,9 @@ Various Shiny UI widgets/components. Not maintained
 
 
 # Install
-```s
-if (require(devtools)) install.packages("devtools")#if not alrady installed
+```r
+# if devtools not alrady installed
+if (require(devtools)) install.packages("devtools")
 devtools::install_github("AnalytixWare/shinysky.incubator")
 library(shinysky.incubator)
 shinysky.incubator::run.shinysky.example()
@@ -17,29 +18,29 @@ shinysky.incubator::run.shinysky.example()
 
 # Usage
 
-```s
-require(shinysky.incubator)
+```r
+library(shinysky.incubator)
 ```
 
-#jsTree
-###ui.R
+# jsTree
+### ui.R
 
-```s
+```r
 jstree("jstree1",with(tags,ul(li("empty_folder"),li("folder1",ul(li("file1"),li("file2"))))))
 ```
 
-###server.R
-```s
+### server.R
+```r
 observe({
 	print(paste0(input$jstree1,collapse=", "))
 })
 
 ```
 
-#jscolorInput
-##ui.R
+# jscolorInput
+## ui.R
 
-```s
+```r
 jscolorInput("jscolorInput1")
 ```
 
@@ -47,6 +48,6 @@ jscolorInput("jscolorInput1")
 
 # Example
 
-```s
+```r
 shinysky.incubator::run.shinysky.example()
 ```
