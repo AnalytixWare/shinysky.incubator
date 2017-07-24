@@ -1,10 +1,7 @@
 ShinySky.incubator
 ========
 
-Various Shiny UI widgets/components. Not maintained
-
-
-![alt text](/screenshots/7.png?raw=true "Examples")
+Various Shiny UI widgets/components in incubator status. NOT maintained
 
 
 # Install
